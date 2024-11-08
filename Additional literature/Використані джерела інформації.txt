@@ -1,0 +1,12 @@
+По темі:
+https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%27%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D0%B9_%D0%B2%D1%96%D1%80%D1%83%D1%81#%D0%A8%D0%BA%D1%96%D0%B4%D0%BD%D0%B8%D0%BA
+https://sites.google.com/site/diresideinaction/komp-uterni-virusi-ta-ieh-osnovna-harakteristika
+https://futurenow.com.ua/shho-take-komp-yuternyj-virus-yak-vin-poshyryuyetsya-i-yaki-oznaky-zarazhennya/
+https://2ip.ua/ua/blog/computer-virus
+https://lanet.help/blog/yak-vydalyty-virusy-z-kompiutera/
+https://uk.soringpcrepair.com/programs-for-removing-viruses-from-pc/#Kaspersky_Rescue_Disk
+
+По коду:
+https://metanit.com/sharp/windowsforms/4.13.php
+https://docs.microsoft.com/ru-ru/dotnet/api/system.windows.forms.textbox.scrollbars?view=net-5.0
+https://www.youtube.com/watch?v=A2LOc6KtIU0&t=823s

@@ -1,0 +1,308 @@
+﻿<Window x:Class="Handbook_of_computer_viruses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Handbook_of_computer_viruses"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Довідник по комп'ютерним вірусам" Height="800" Width="1280" MouseMove="Window_MouseMove" MinHeight="600" MinWidth="800">
+    <Window.Resources>
+        <!--Стиль для головних кнопок навігації-->
+        <Style TargetType="Button" x:Key="MainButtonsNavigation">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Background" Value="#191A45"/>
+            <Setter Property="Padding" Value="50,0,0,0"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <!--Стиль для зображень біля кнопок навігації-->
+        <Style TargetType="Image" x:Key="ImagesNavigation">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+
+        <!--Стиль для дочірніх кнопок навігації-->
+        <Style TargetType="Button" x:Key="UnderButtons">
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Background" Value="#FF10113A"/>
+            <Setter Property="Padding" Value="60,0,0,0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <!--Стиль для дочірніх кнопок(2) навігації-->
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Background" Value="#FF0B0B3A"/>
+            <Setter Property="Padding" Value="75,0,0,0"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="grdMain" 
+          Background="#1E1E4E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--Головне меню-->
+        <Menu x:Name="mnsMainMenu"
+              Grid.Row="0" 
+              Grid.ColumnSpan="2"
+              Height="40"
+              Background="#13143D">
+            <Image x:Name="imgIcon" 
+                   Width="40" 
+                   Height="40" 
+                   Margin="0,0,0,10"/>
+            <!--Файл-->
+            <MenuItem x:Name="mnuMainMenuFile"
+                      Header="Файл"
+                      Foreground="White"
+                      Cursor="Hand"
+                      Height="40">
+
+                <MenuItem x:Name="mnuMenuExit"
+                          Header="Вихід"
+                          Background="#13143D"
+                          BorderThickness="0"
+                          Cursor="Hand"
+                          Click="btnExit_Click"/>
+            </MenuItem>
+            <!--Довідка-->
+            <MenuItem x:Name="mnuMainMenuInformation"
+                      Header="Довідка"
+                      Foreground="White"
+                      Height="40"
+                      Cursor="Hand">
+                <MenuItem x:Name="mnuAboutTheAuthor"
+                          Header="Про автора"
+                          Background="#13143D"
+                          BorderThickness="0"
+                          Cursor="Hand"
+                          Click="mnuAboutTheAuthor_Click"/>
+                <MenuItem x:Name="mnuAboutTheProgram"
+                          Header="Про програму"
+                          Background="#13143D"
+                          BorderThickness="0"
+                          Cursor="Hand"
+                          Click="mnuAboutTheProgram_Click"/>
+            </MenuItem>
+            <!--Налаштування-->
+            <MenuItem x:Name="mnuMainMenuSettings"
+                      Header="Налаштування"
+                      Foreground="White"
+                      Height="40"
+                      Cursor="Hand">
+                <MenuItem x:Name="mnuEdit"
+                          Header="Редагувати"
+                          Background="#13143D"
+                          BorderThickness="0"
+                          Click="mnuEdit_Click"
+                          Cursor="Hand"/>
+            </MenuItem>
+            <!--Пошук-->
+            <Border Width="150"
+                    Background="White"
+                    Margin="0,0,0,10"
+                    Opacity="0.4"
+                    CornerRadius="15">
+                <TextBox x:Name="txtSearch"
+                         materialDesign:HintAssist.Hint="Пошук" 
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontSize="12"
+                         Foreground="Black"
+                         FontWeight="Bold"
+                         ToolTip="Пошук"
+                         BorderThickness="0"
+                         Margin="10,0,10,0" 
+                         KeyDown="txtSearch_KeyDown">
+                </TextBox>
+            </Border>
+            <!--Завантажити-->
+            <MenuItem x:Name="mnuLinkToTheProgram"
+                      Foreground="Red"
+                      Visibility="Collapsed"
+                      Cursor="Hand"
+                      Height="30"
+                      Background="Lime"
+                      Click="btnLinkToTheProgram_Click">
+            </MenuItem>
+            <!--Зберегти зміни-->
+            <MenuItem x:Name="mnuSaveСhanges"
+                      Header="Зберегти зміни"
+                      Foreground="Red"
+                      Visibility="Collapsed"
+                      Cursor="Hand"
+                      Height="30"
+                      Margin="10,0,0,0"
+                      Background="Lime"
+                      Click="mnuSaveСhanges_Click">
+            </MenuItem>
+        </Menu>
+
+        <!--Вміст-->
+        <Grid Grid.Column="1" 
+              Grid.Row="1">
+            <!--Зображення за замовчуванням-->
+            <Image x:Name="imgMenu" 
+                   Stretch="Fill"/>
+
+            <Grid x:Name="MainTextPage" 
+                  Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <!--Заголовок тексту-->
+                <Label x:Name="lblTitle"
+                       Grid.Column="0"
+                       Grid.Row="0"
+                       Content="Довідник по комп'ютерним вірусам"
+                       Foreground="White" 
+                       FontSize="42"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+                </Label>
+                <!--Головний текст-->
+                <ScrollViewer x:Name="scrlTextComputerVirus"
+                              VerticalScrollBarVisibility="Auto"
+                              Grid.Column="0"
+                              Grid.Row="1">
+                    <TextBox x:Name="txtTextComputerVirus"
+                               Margin="15,0,15,15"
+                               TextAlignment="Justify"
+                               Padding="10"
+                               TextWrapping="Wrap"
+                               IsReadOnly="True"
+                               Background="White"/>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <!--Навігація-->
+        <Grid Grid.Row="1" 
+              Grid.Column="0" 
+              Background="#191A45">
+            <ScrollViewer x:Name="scrlNavigation"
+                          VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Auto">
+                <StackPanel x:Name="pnlNavigation">
+                    <!--Комп'ютерний вірус-->
+                    <Grid>
+                        <Button x:Name="btnComputerVirus"
+                                Margin="0,80,0,0"
+                                Click="btnComputerVirus_Click"
+                                Content="Комп'ютерний вірус"
+                                Style="{StaticResource MainButtonsNavigation}">
+                        </Button>
+                        <Image  x:Name="imgComputerVirus" 
+                                Margin="0,85,0,0"
+                                Style="{StaticResource ImagesNavigation}"
+                                MouseDown="btnComputerVirus_Click">
+                        </Image>
+                    </Grid>
+                    <StackPanel x:Name="pnlComputerVirus"
+                                Height="Auto"
+                                Visibility="Collapsed">
+                    </StackPanel>
+                    <!--Уникнення зараження-->
+                    <Grid>
+                        <Button x:Name="btnAvoidInfection"
+                                Click="btnAvoidInfection_Click"
+                                Content="Уникнення зараження"
+                                Style="{StaticResource MainButtonsNavigation}" Grid.ColumnSpan="2" Margin="0,0,-0.4,-0.4">
+                        </Button>
+                        <Image x:Name="imgAvoidInfection" 
+                               MouseDown="btnAvoidInfection_Click"
+                               Style="{StaticResource ImagesNavigation}" Margin="0,5,0,4.6">
+                        </Image>
+                    </Grid>
+                    <StackPanel x:Name="pnlAvoidInfection"
+                                Height="Auto"
+                                Visibility="Collapsed">
+                    </StackPanel>
+                    <!--Видалення вірусів-->
+                    <Grid>
+                        <Button x:Name="btnVirusRemoval"
+                                Click="btnVirusRemoval_Click"
+                                Content="Видалення вірусів"
+                                Style="{StaticResource MainButtonsNavigation}">
+                        </Button>
+                        <Image x:Name="imgVirusRemoval" 
+                               MouseDown="btnVirusRemoval_Click"
+                               Style="{StaticResource ImagesNavigation}">
+                        </Image>
+                    </Grid>
+                    <StackPanel x:Name="pnlVirusRemoval"
+                                Height="Auto"
+                                Visibility="Collapsed">
+                    </StackPanel>
+                    <!--Антивірусні програми-->
+                    <Grid>
+                        <Button x:Name="btnAntivirusPrograms"
+                                Click="btnAntivirusPrograms_Click"
+                                Content="Антивірусні програми"
+                                Style="{StaticResource MainButtonsNavigation}">
+                        </Button>
+                        <Image x:Name="imgAntivirusPrograms" 
+                               MouseDown="btnAntivirusPrograms_Click"
+                               Style="{StaticResource ImagesNavigation}">
+                        </Image>
+                    </Grid>
+                    <StackPanel x:Name="pnlAntivirusPrograms"
+                                Height="Auto"
+                                Visibility="Collapsed">
+                    </StackPanel>
+                    <!--Повернутися назад до меню-->
+                    <Grid>
+                        <Button x:Name="btnBackToTheMenu"
+                                Content="Головна"
+                                Click="btnBackToTheMenu_Click"
+                                Style="{StaticResource MainButtonsNavigation}">
+                        </Button>
+                        <Image x:Name="imgBackToTheMenu" 
+                               MouseDown="btnBackToTheMenu_Click"
+                               Style="{StaticResource ImagesNavigation}">
+                        </Image>
+                    </Grid>
+                    <!--Вихід-->
+                    <Grid>
+                        <Button x:Name="btnExit"
+                                Content="Вихід"
+                                Click="btnExit_Click" 
+                                Style="{StaticResource MainButtonsNavigation}">
+                        </Button>
+                        <Image x:Name="imgExit" 
+                               MouseDown="btnExit_Click"
+                               Style="{StaticResource ImagesNavigation}">
+                        </Image>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

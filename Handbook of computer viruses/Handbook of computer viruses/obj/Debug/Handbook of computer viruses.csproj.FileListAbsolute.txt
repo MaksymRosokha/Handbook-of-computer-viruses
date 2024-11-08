@@ -1,0 +1,84 @@
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe.config
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.pdb
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.g.cs
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.g.cs
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.g.cs
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.cache
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.lref
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.baml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.baml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.baml
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.g.resources
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook_of_computer_viruses.Properties.Resources.resources
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.CopyComplete
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.exe
+C:\Users\Admin\Desktop\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.pdb
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe.config
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.pdb
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.g.cs
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.g.cs
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.g.cs
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.cache
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.lref
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.baml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.baml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.baml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.baml
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.g.resources
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook_of_computer_viruses.Properties.Resources.resources
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.CopyComplete
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.exe
+C:\Users\Admin\Desktop\ПГК\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.pdb
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe.config
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.exe
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\Handbook of computer viruses.pdb
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.dll
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignColors.pdb
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.AssemblyReference.cache
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.g.cs
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.g.cs
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.g.cs
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.g.cs
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.g.cs
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.cache
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses_MarkupCompile.lref
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\App.baml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\MainWindow.baml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndEditing.baml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndLogin.baml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\wndSignUp.baml
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.g.resources
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook_of_computer_viruses.Properties.Resources.resources
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.GenerateResource.cache
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.csproj.CoreCompileInputs.cache
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook.B4F6AE59.Up2Date
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.exe
+D:\ПГФК\2 КУРС\Курсова робота\Handbook of computer viruses\Handbook of computer viruses\obj\Debug\Handbook of computer viruses.pdb

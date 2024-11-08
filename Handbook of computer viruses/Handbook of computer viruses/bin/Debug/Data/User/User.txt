@@ -1,0 +1,7 @@
+user=user
+sss=s
+1=1
+Maks=1234
+222222222222=2
+12=1
+qwerty=qwerty

@@ -1,0 +1,251 @@
+﻿<Window x:Class="Handbook_of_computer_viruses.wndEditing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Handbook_of_computer_viruses"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Редагування" Height="650" Width="400" ResizeMode="NoResize">
+    <Window.Resources>
+        <!--Стиль для тексту в Border в редагуванні-->
+        <Style TargetType="Label" x:Key="LabelForEditing">
+            <Setter Property="Foreground" Value="Yellow"/>
+            <Setter Property="Height" Value="65"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <!--Стиль для Border в редагуванні-->
+        <Style TargetType="Border" x:Key="BorderForEditing">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="65"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="Background" Value="#FF9B05FF"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#FF0D0E2E">
+        <Border x:Name="brdMainInEditing"
+                Background="#1E1E4E"
+                CornerRadius="50"
+                Margin="15">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20" Color="White" ShadowDepth="0"></DropShadowEffect>
+            </Border.Effect>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="lblEditing"
+                       Grid.Row="0" 
+                       Grid.ColumnSpan="2"
+                       Content="Редагування"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       FontSize="25"
+                       FontWeight="Bold"
+                       Foreground="Lime"/>
+
+                <StackPanel Grid.Row="1">
+                    <Grid>
+                        <Border x:Name="brdTheme" 
+                                Style="{StaticResource BorderForEditing}">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="brdEffectsMistTheme"
+                                                  BlurRadius="20" 
+                                                  Color="#FF9B05FF" 
+                                                  ShadowDepth="0">
+                                </DropShadowEffect>
+                            </Border.Effect>
+
+                            <WrapPanel>
+                                <Label Content="Тема:"
+                                       Style="{StaticResource LabelForEditing}"/>
+                                <StackPanel Margin="10,0,0,0">
+                                    <RadioButton x:Name="rdbDarkTheme" 
+                                                 Content="Темна"
+                                                 Foreground="Yellow"
+                                                 Height="32.5"
+                                                 FontWeight="Bold"
+                                                 FontSize="18"
+                                                 VerticalContentAlignment="Center"
+                                                 VerticalAlignment="Center"
+                                                 Cursor="Hand"/>
+                                    <RadioButton x:Name="rdbBrightTheme"
+                                                 Content="Світла"
+                                                 Foreground="Yellow" 
+                                                 Height="32.5"
+                                                 FontWeight="Bold"
+                                                 FontSize="18"
+                                                 VerticalAlignment="Center"
+                                                 VerticalContentAlignment="Center"
+                                                 Cursor="Hand"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+
+                    <Grid>
+                        <Border x:Name="brdFontSize"
+                                Style="{StaticResource BorderForEditing}">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="brdEffectsMistFontSize" 
+                                                  BlurRadius="20" 
+                                                  Color="#FF9B05FF" 
+                                                  ShadowDepth="0">
+                                </DropShadowEffect>
+                            </Border.Effect>
+
+                            <WrapPanel>
+                                <Label Content="Розмір шрифту:"
+                                       Style="{StaticResource LabelForEditing}"/>
+                                <TextBox x:Name="txtFontSize" 
+                                         Margin="10,0,0,0"
+                                         Width="100"
+                                         VerticalAlignment="Center"
+                                         Background="#FFD6A8F4"
+                                         MaxLength="2"
+                                         FontSize="20"/>
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+
+                    <Grid>
+                        <Border x:Name="brdForeground"
+                                Style="{StaticResource BorderForEditing}">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="brdEffectsMistForeground" 
+                                                  BlurRadius="20" 
+                                                  Color="#FF9B05FF" 
+                                                  ShadowDepth="0">
+                                </DropShadowEffect>
+                            </Border.Effect>
+
+                            <WrapPanel>
+                                <Label Content="Колір шрифту:"
+                                       Style="{StaticResource LabelForEditing}"/>
+                                <ComboBox x:Name="cmbForeground"
+                                          Margin="10,0,0,0"
+                                          Width="120"
+                                          Height="Auto"
+                                          VerticalAlignment="Center"
+                                          Background="#FFD6A8F4"
+                                          FontSize="17"
+                                          SelectedIndex="0">
+                                    <TextBlock Text="Чорний"/>
+                                    <TextBlock Text="Сірий"/>
+                                    <TextBlock Text="Синій"/>
+                                    <TextBlock Text="Зелений"/>
+                                    <TextBlock Text="Червоний"/>
+                                    <TextBlock Text="Жовтий"/>
+                                </ComboBox>
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+
+                    <Grid>
+                        <Border x:Name="brdFontType"
+                                Style="{StaticResource BorderForEditing}">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="brdEffectsMistFontType" 
+                                                  BlurRadius="20" 
+                                                  Color="#FF9B05FF" 
+                                                  ShadowDepth="0">
+                                </DropShadowEffect>
+                            </Border.Effect>
+
+                            <WrapPanel>
+                                <Label Content="Тип шрифту:"
+                                       Style="{StaticResource LabelForEditing}"/>
+                                <ComboBox x:Name="cmbFontType"
+                                          Margin="10,0,0,0"
+                                          Width="180"
+                                          Height="Auto"
+                                          VerticalAlignment="Center"
+                                          Background="#FFD6A8F4"
+                                          FontSize="17"
+                                          SelectedIndex="0">
+                                    <TextBlock Text="Звичайний"/>
+                                    <TextBlock Text="Жирний"/>
+                                    <TextBlock Text="Під нахилом"/>
+                                    <TextBlock Text="Жирний під нахилом"/>
+                                </ComboBox>
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+
+                    <Grid>
+                        <Border x:Name="brdTextEditing"
+                                Style="{StaticResource BorderForEditing}">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="brdEffectsMistTextEditing" 
+                                                  BlurRadius="20" 
+                                                  Color="#FF9B05FF" 
+                                                  ShadowDepth="0">
+                                </DropShadowEffect>
+                            </Border.Effect>
+
+                            <WrapPanel>
+                                <Label Content="Режим:"
+                                       Style="{StaticResource LabelForEditing}"/>
+                                <StackPanel Margin="10,0,0,0">
+                                    <RadioButton x:Name="rdbReading" 
+                                                 Content="Читання"
+                                                 Foreground="Yellow"
+                                                 Height="32.5"
+                                                 FontWeight="Bold"
+                                                 FontSize="18"
+                                                 VerticalContentAlignment="Center"
+                                                 VerticalAlignment="Center"
+                                                 Cursor="Hand"/>
+                                    <RadioButton x:Name="rdbEditing"
+                                                 Content="Редагування"
+                                                 Foreground="Yellow" 
+                                                 Height="32.5"
+                                                 FontWeight="Bold"
+                                                 FontSize="18"
+                                                 VerticalAlignment="Center"
+                                                 VerticalContentAlignment="Center"
+                                                 Cursor="Hand"/>
+                                </StackPanel>
+
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+
+                </StackPanel>
+
+                <Grid Grid.Row="2">
+                    <Border x:Name="brdEditing"  
+                                Width="200"
+                                Height="50"
+                                Cursor="Hand"
+                                Background="Lime"
+                                CornerRadius="30" 
+                                MouseDown="brdEditing_MouseDown"
+                            MouseMove="brdEditing_MouseMove"
+                            MouseLeave="brdEditing_MouseLeave">
+                        <Label HorizontalContentAlignment="Center"
+                               VerticalContentAlignment="Center"
+                               Content="Редагувати"
+                               Foreground="Black"
+                               FontSize="22"
+                               FontWeight="Bold"/>
+                        <Border.Effect>
+                            <DropShadowEffect x:Name="brdEditingEffectsMist" 
+                                              BlurRadius="20" 
+                                              Color="Lime" 
+                                              ShadowDepth="0">
+                            </DropShadowEffect>
+                        </Border.Effect>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

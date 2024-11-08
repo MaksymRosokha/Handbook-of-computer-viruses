@@ -1,0 +1,119 @@
+﻿<Window x:Class="Handbook_of_computer_viruses.wndLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Handbook_of_computer_viruses"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Вхід" Height="500" Width="400" ResizeMode="NoResize">
+    <Grid Background="#FF0D0E2E">
+        <Border x:Name="brdMainInLogin"
+                Background="#1E1E4E"
+                CornerRadius="50"
+                Margin="15">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20" Color="White" ShadowDepth="0"></DropShadowEffect>
+            </Border.Effect>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="lblLogin"
+                       Grid.Row="0" 
+                       Grid.ColumnSpan="2"
+                       Content="Вхід"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       FontSize="25"
+                       FontWeight="Bold"
+                       Foreground="Lime"/>
+
+                <StackPanel Grid.Row="1"
+                                Grid.Column="1"
+                                Margin="10,40,60,0">
+                    <TextBox x:Name="txtLogin" 
+                             materialDesign:HintAssist.Hint="Логін" 
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             Foreground="White"
+                             FontSize="25"/>
+                    <PasswordBox x:Name="psbPassword" 
+                                 materialDesign:HintAssist.Hint="Пароль" 
+                                 Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                                 Foreground="White"
+                                 FontSize="25"/>
+                </StackPanel>
+
+                <Canvas Grid.Row="1"
+                            Grid.Column="0">
+                    <Image x:Name="imgLogin"
+                               Stretch="Fill"
+                               Height="50"
+                               Width="50" 
+                               Canvas.Top="60"
+                               Margin="5,0,0,0"/>
+                    <Image x:Name="imgPassword"
+                               Stretch="Fill"
+                               Height="50"
+                               Width="50" 
+                               Canvas.Top="134"/>
+                </Canvas>
+
+                <Grid Grid.Row="2" 
+                      Grid.ColumnSpan="2">
+                    <Border x:Name="brdLogin"  
+                                Width="200"
+                                Height="50"
+                                Margin="0,0,0,30"
+                                Cursor="Hand"
+                                Background="Lime"
+                                CornerRadius="30" 
+                                MouseDown="brdLogin_MouseDown"
+                            MouseMove="brdLogin_MouseMove"
+                            MouseLeave="brdLogin_MouseLeave">
+                        <Label HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"
+                                   Content="Увійти"
+                                   FontSize="22"
+                                   FontWeight="Bold"/>
+                        <Border.Effect>
+                            <DropShadowEffect x:Name="brdLoginEffectsMist" 
+                                              BlurRadius="20" 
+                                              Color="Lime" 
+                                              ShadowDepth="0">
+                            </DropShadowEffect>
+                        </Border.Effect>
+
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Row="3" 
+                          Grid.ColumnSpan="2">
+                    <TextBlock x:Name="tbSignUp"
+                               Foreground="White" 
+                               HorizontalAlignment="Center">
+                            <Run x:Name="rnSignUp" 
+                                 FontSize="16">
+                                 Немає аккаунта?
+                            </Run>
+                            <Underline x:Name="unlSignUp"
+                                       Foreground="Blue"
+                                       FontSize="16"
+                                       Cursor="Hand"
+                                       MouseDown="tbSignUp_MouseDown">
+                                Зареєструватись
+                            </Underline>
+                    </TextBlock>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
